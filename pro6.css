@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+
+p{
+    color: beige;
+    text-align: justify;
+    margin-top: 25px;
+    
+}
+
+.header {
+    background-color:#333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    height: 60px;
+    margin: 0px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;   
+}
+h1{
+    margin-top: 10px;
+
+}
+
+#navul1{
+   padding: 15px;
+   margin-top: 22px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 60px;
+    padding: 6px;
+
+}
+#navul1 li:hover{
+    background-color:#333;
+    padding: 6px;
+    border: solid 2px;
+    border-radius: 10px;
+    color: orange;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+/* sec div */
+
+main {
+    padding: 20px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.movie {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 80px;
+}
+.moviee {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#im{
+    height: 480px;
+    width: 100%;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.movie h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+/* upcoming movies */
+
+.d1{
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+   
+    padding-top: 60px;
+}
+#head1{
+    width: 240px;
+    font-size: 28px;
+    color:white;
+    margin-top: 45px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+#head1:hover{
+    color: orange;
+}
+#head3{
+    width: 240px;
+    font-size: 28px;
+    color: white;
+    margin-top: -8px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+#head3:hover{
+    color: orange;
+}
+h2{
+    width: 300px;
+    font-size: 28px;
+    color: white;
+    margin-top: -6px;
+    padding-bottom: 10px;
+}
+h2:hover{
+    color: red;
+}
+
+.movie1{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 10px;
+    margin: 40px;
+    text-align: center;
+   
+}
+h3{
+    text-align: center;
+}
+.movie2{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 10px;
+    margin: 80px;
+    text-align: center;
+    margin-right: -140px;
+    margin-left: -140px;
+}
+.movie3{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding-left: 10px;
+    margin: 80px;
+    text-align: center;
+   
+}
+.Series1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStP-yrlrf2QQdd5EV-qu3aQ-Wa7zlTGSr3QZozIol9J8CatlFcCxF1dGBLQln5miJLlC4&usqp=CAU);
+    background-size: cover;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 15px;
+    width: 260px;
+    height: 240px;
+    margin-bottom: 36px;
+    display: flex;  
+    margin-left:60px;
+    justify-content: center;
+}
+.Series2{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-e8b66e61e9945a9499e6eb21820f0594);
+    background-size: cover;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 15px;
+    width: 260px;
+    height: 240px;
+    display: flex;  
+    margin-top: -202px;
+    margin-left: 300px;
+    justify-content: center;
+
+}
+.Series3{
+    background-image: url(https://img.etimg.com/thumb/width-640,height-480,imgsize-48958,resizemode-75,msid-104801810/news/international/us/stranger-things-season-5-meet-the-returning-cast-and-their-characters.jpg);
+    background-size: cover;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 15px;
+    width: 260px;
+    height: 240px;
+    display: flex;  
+    margin-top: -202px;
+    margin-left: 540px;
+    justify-content: center;
+
+}
+.Series6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStP-yrlrf2QQdd5EV-qu3aQ-Wa7zlTGSr3QZozIol9J8CatlFcCxF1dGBLQln5miJLlC4&usqp=CAU);
+    background-size: cover;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 15px;
+    width: 260px;
+    height: 240px;
+    margin-top: 32px;
+    display: flex;  
+    justify-content: center;
+    z-index: 3;
+}
+.Series5{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-e8b66e61e9945a9499e6eb21820f0594);
+    background-size: cover;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 15px;
+    width: 260px;
+    height: 240px;
+    display: flex;  
+    margin-top: -552px;
+    justify-content: center;
+
+}
+#wm{
+    margin-left: 778px;
+    margin-top: -240px;
+}
+#wm1{
+    margin-left: 1016px;
+    margin-top: -281px;
+}
+#smain{
+    margin-top: 50px;
+}
+
+a{
+   margin-top: 250px;
+}
+p{
+    text-align: center;
+    color: black;
+}
+#para{
+    color: orange;
+}
+#img1{
+    width: 311px;
+    height: 400px;
+    margin-left: -10px;
+}
+#img2{
+    width: 310px;
+    height: 400px;
+    margin-left: -10px;
+}
+#img3{
+    width: 310px;
+    height: 400px;
+    margin-left: -10px;
+}
+
+
+/* footer */
+
+
+.footerh{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    line-height: 2.5;
+}
+.p1{
+    color: white;
+    text-align: left;
+}
+.jada{
+    color: white;
+    background-color: var(--bg-color);
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.jada:hover{
+    color: orange;
+    border: 2px solid orange;
+}
+.footerb{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+.footerb1{
+    width: 200px;
+}
+.footerb1 h4,
+.footerb1 p{
+    position: relative;
+    left: 100px;
+}
+.footerb2{
+    width: 400px;
+}
+.arrow{
+    color: whitesmoke;
+    background-color: white;
+    padding: 8px 20px;
+    margin: 0px 20px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.arrow:hover{
+    color: white;
+    border: 2px solid white
+}
+#mailbox{
+    padding: 8px;
+    border-radius: 20px;
+}
+.footere{
+    margin-top: 30px;
+    padding: 15px 0px;
+    background-color:#333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ficons{
+    font-size: 20px;
+}
+.ficons1:hover{
+    color: orange;
+    border: 2px solid orange
+}
+.ficons1{
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#copyright{
+    padding-top: 20px;
+}
